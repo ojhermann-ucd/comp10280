@@ -7,37 +7,50 @@ The program should then terminate.
 
 """
 PSEUDOCODE
-This is based on number properties when adding integers.
+User inputs integers a, b, and c. (a more detailed explanation is after the code)
 
-Three numbers: a, b, c
-if a + b + c is odd (then one or three of the numbers is odd):
- if a + b is odd:
-  if b + c is odd: return b
-  else (b + c is even): return a
- else (a + b is even):
-  if b + c is odd: return c
-  else (must compare magnitudes because all numbers are odd):
-   if a > b:
-    if a > c: return a
-    else:
-     if c > a: return c
-     else: return a or c (a = c)
-   else:
-    if b > a:
-     if b > c: return b
-     else:
-      if c > b: return c
-      else: return b or c (b = c)
-   else: return a or b or c (a = b = c)
+First Calculations
+a + b + c
+a + b
+    b + c
 
-else (a + b + c is odd, meaning one or three numbers is even):
- if a + b even:
-  if b + c odd: return 
-  .
-  .
-  .
-
-See comments below for clarification
+Main Program
+if a + b + c odd:
+  if a + b odd:
+    if b + c odd:
+      return b
+    else b + c even:
+      return a
+  else a + b even:
+    if b + c odd:
+      return c
+    else a, b, and c are odd:
+      if (b <= a) and (c <= a):
+        return a
+      elif (a <= b) and (c <= b):
+        return b
+      else:
+        return c
+if a + b + c even:
+  if a + b odd:
+    if b + c odd:
+      if c <= a:
+        return a
+      else:
+        return c
+    else b + c even:
+      if c <= b:
+        return b
+      else:
+        return c
+  else a + b even:
+    if b + c odd:
+      if b <= a:
+        return a
+      else:
+        return b
+    else b + c even:
+      return "No odd numbers were input"
 """
 
 #user inputs
@@ -89,3 +102,77 @@ else:#sum of three numbers is even
       print(num3)
     else:
       print(num1)
+
+"""
+DETAILED PSEUDOCODE
+This solution is based on number properties when adding integers a, b, and c.
+
+First Calculations
+a + b + c
+a + b
+    b + c
+
+Possible Odd/Even Outcomes for a + b + c
+o + o + o = o
+o + o + e = e
+o + e + o = e
+o + e + e = o
+e + o + o = e
+e + o + e = o
+e + e + o = o
+e + e + e = e
+
+if a + b + c odd:
+  o + e + e = o
+  e + o + e = o
+  e + e + o = o
+  o + o + o = o
+  if a + b odd:
+    e + o + e = o
+    o + e + e = o
+    if b + c odd:
+      return b
+    else b + c even:
+      return a
+  else a + b even:
+    e + e + o = o
+    o + o + o = o
+    if b + c odd:
+      return c
+    else a, b, and c are odd:
+      if (b <= a) and (c <= a):
+        return a
+      elif (a <= b) and (c <= b):
+        return b
+      else:
+        return c
+
+if a + b + c even:
+  o + e + o = e
+  e + o + o = e
+  o + o + e = e
+  e + e + e = e
+  if a + b odd:
+    o + e + o = e
+    e + o + o = e
+    if b + c odd:
+      if c <= a:
+        return a
+      else:
+        return c
+    else b + c even:
+      if c <= b:
+        return b
+      else:
+        return c
+  else a + b even:
+    o + o + e = e
+    e + e + e = e
+    if b + c odd:
+      if b <= a:
+        return a
+      else:
+        return b
+    else b + c even:
+      return "No odd numbers were input"
+"""
