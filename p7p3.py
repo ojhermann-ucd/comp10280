@@ -23,7 +23,7 @@ while True:
 count = 0
 limit = 50
 while count < limit:
-     print("Integer " + str(count + 1) + " is " + str(start) + " and its square is " + str(start**2))
+     print(str(start) + " is an integer and its square is " + str(start**2))
      count += 1
      start += 1
-print("Note the grader: as the integers extend infinitely in both positive and negative directions, I had to ask the user to input the starting point.")
+print("Note to the grader: as the integers extend infinitely in both positive and negative directions, I had to ask the user to input the starting point.")

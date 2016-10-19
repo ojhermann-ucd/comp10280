@@ -33,3 +33,4 @@ else:
      output = str(user_year) + " is negative . . . you must enter a positive value for year"
 
 print(output)
+print("Note: Algorithm taken from Lecture 8 Slide; attributed to Wikipedia, but told by TA to use this one for p7p1.py")

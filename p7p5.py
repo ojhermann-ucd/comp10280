@@ -5,23 +5,28 @@ Save this program as p7p5.py.
 Pseudocode
 define the range
 for each element of the range:
-     if element is divisible by 3 or five:
+     if element is divisible by 3 or 5:
           add it to the running sum
      else:
           nothing
 print running sum
 
 """
+#if the range in inclusive
 range_min = 1
 range_max = 10000
-range_problem = range(1, 10000, 1)
+range_problem = range(range_min, range_max, 1)
 sum_problem = 0
 for i in range_problem:
      if (i % 3 == 0) or (i % 5 == 0):
           sum_problem += i
      else:
           pass
-print(sum_problem)
+print(str(sum_problem) + " is the answer if the range does not include 10000 (as we would expect in Python).")
+sum_problem += range_max
+print(str(sum_problem) + " is the answer if the range does include 10000 (as we might expect in natural language).")
+
+
 
 """
 #manual inputs

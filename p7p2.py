@@ -35,4 +35,6 @@ else:
      output = str(user_year) + " is a leap year"
 
 print(output) 
-print("Note to grader: the algorithm on Wikipedia does not make a valid calculation; do not mark my answers incorrectly as they reflect a faulty algorithm we were asked to emulate.")
+print("Note 1: the algorithm on Wikipedia does not make a valid calculation; this was verified in the practical session.")
+print("Note 2: please do not mark my answers incorrectly as they reflect a faulty algorithm we were asked to emulate.")
+print("https://en.wikipedia.org/wiki/Leap_year#Algorithm on 18 Octo 2016 at 13:39")
