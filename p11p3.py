@@ -4,6 +4,17 @@ The program should stop when a negative number is entered.
 Save this program as p11p3.py.
 
 Pseudocode
+user inputs integer
+if integer is negative, message and exit
+if integer is positive:
+	fibRange = 0 to integer + 1
+	for f in fibRange:
+	     if f = zero, print fib(0)
+	     if f = 1, print fib(1)
+	     else:
+	     	fibn = fib1 + fib 2
+	     	fib1, fib2 = fib2, fibn
+	     	print(fib(n))
 """
 import sys
 

@@ -5,8 +5,13 @@ Rewrite the program to do this.
 Save this program as p11p1.py.
 
 Pseudocode
-
+user inputs integer
+if integer is negative, message and exit
+if integer is positive:
+     use a count variable set to the integer value
+     first multiply it by one, then decrement, and repeat until the count is one 
 """
+import sys
 
 while True:
      try:
@@ -14,7 +19,7 @@ while True:
           break
      except ValueError:
           print("Restart the program and enter a positive integer if you wish to continue.")
-          break
+          sys.exit()
 
 if num < 0:
      print("Restart the program and enter a positive integer if you wish to continue.")
@@ -25,5 +30,4 @@ else:
 		fac *= count
 		count -= 1
 	print(str(num) + "! = " + str(fac))
-
-print("Note: Professor Dunnion confirmed that this problem request us to modify p9p3.py to a two condition, not three condition factorial program")
+	print("Note: Professor Dunnion confirmed that this problem request us to modify p9p3.py to a two condition, not three condition factorial program")
