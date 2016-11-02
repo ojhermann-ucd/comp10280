@@ -13,6 +13,28 @@ def sroot(n, e):
 	continue this process until either an acceptable approximation is found or root^2 is larger than n
 	print according message
 
+Error Checking Notes
+num: garbage, negative, zero, OK
+epsilon: garbage, negative, zero, OK
+
+(n, e) to check:
+.- g,g
+.- g,n
+.- g,z
+.- g,o
+.- n,g
+.- n,n
+.- n,z
+.- n,o
+.- z,g
+.- z,n
+.- z,z
+.- z,o
+.- o,g
+.- o,n
+.- o,z
+.- o,o
+
 """
 import sys
 

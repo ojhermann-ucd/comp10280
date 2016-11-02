@@ -45,13 +45,13 @@ def fib(num):
 
 while True:
 	try:
-		num = int(input("Enter a non-zero positive integer value to see the fib numbers up to that integer e.g. fib(1) = 0, fib(2) = 1, fib(3) = fib(1) + fib(2): "))
+		num = int(input("Enter a non-zero, non-negative integer value n to see the first n fib numbers: "))
 		break
 	except ValueError:
-		print("Restart the program and enter an appropriate integer value if you wish to continue.")
+		print("Restart the program and enter an appropriate value if you wish to continue.")
 		sys.exit()
 
 if num < 1:
-	print("Restart the program and enter an appropriate positive integer value if you wish to continue.")
+	print("Restart the program and enter an appropriate value if you wish to continue.")
 else:
 	fib(num)

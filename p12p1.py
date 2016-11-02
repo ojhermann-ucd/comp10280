@@ -26,13 +26,13 @@ def fact(n):
 
 while True:
 	try:
-		num = int(input("Enter an integer value, please: "))
+		num = int(input("Enter a non-negative integer value, please: "))
 		break
 	except ValueError:
-		print("Restart the program and enter an integer value if you wish to continue.")
+		print("Restart the program and enter a non-negative integer value if you wish to continue.")
 		sys.exit()
 
 if num < 0:
-	print("You entered a negative integer and the factorial function is only defined on positive integers.")
+	print("You entered a negative integer and the factorial function is only defined on positive integers.  Please try the program again with a non-negative integer.")
 else:
 	print(str(num) + "! = " + str(fact(num)))
