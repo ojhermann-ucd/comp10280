@@ -1,0 +1,14 @@
+In the program in the previous question, what happens in each of the following cases:
+(a) If you include the line print(print max())?
+(b) If you omit the brackets after print max(), ie just have print max? 
+(c) If you include the line print(print max)?
+Report your findings and your explanations for them in p13q3.txt (or p13q3.odt or p13q3.doc).
+
+
+(a) When Python3 executes the code print(print_max()), once inside of the '(' of the print function, it runs print_max() because it is an executable function, and then, upon reachin the ')', it prints 'None' because there was no printable object within the print function.
+
+(b) When Python3 executes the code print_max, nothing happens because it treats the 'print_max' as a function name in the current symbol table, but with no activity requested e.g. we could assign the function name to another name, say, 'blarf' and then use 'blarf()' in lieu of 'print_max()'.  From the Python3 documentation:
+				A function definition introduces the function name in the current symbol table.
+				The value of the function name has a type that is recognized by the interpreter as a user-defined function.
+
+(c) When Python3 executes the code print(print_max) it returns the what 'print_max' is, its name, and it's location in the current symobl table
