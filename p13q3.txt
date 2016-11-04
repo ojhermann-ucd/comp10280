@@ -11,4 +11,4 @@ Report your findings and your explanations for them in p13q3.txt (or p13q3.odt o
 				A function definition introduces the function name in the current symbol table.
 				The value of the function name has a type that is recognized by the interpreter as a user-defined function.
 
-(c) When Python3 executes the code print(print_max) it returns the what 'print_max' is, its name, and it's location in the current symobl table
+(c) When Python3 executes the code print(print_max) it returns the what 'print_max' is, its name, and it's location in the current symobl table e.g. <function print_max at 0x1012099d8>
