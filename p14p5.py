@@ -29,7 +29,12 @@ def recFib(n):
 #function to display a fib sequence
 def recFibSeq(p):
 	for i in range(0, p + 1, 1):
-		print("fib(" + str(i) + ") = " + str(recFib(i)))
+		if i == 0:
+			print("fib(" + str(i) + " = 0 by definition")
+		elif i == 1:
+			print("fib(" + str(i) + " = 1 by definition")
+		else:
+			print("fib(" + str(i) + ") = " + str(recFib(i)) + " = fib(" + str(i - 2) + ") + " + "fib(" + str(i - 1) + ")")
 	return "I would have used @functools.lru_cache(None) to make this quick, but I assuem that is off limits in this course"
 
 while True:

@@ -9,6 +9,6 @@ Input		Time							Input		Time
 10,000		5.71							10,000			
 100,000		10.82							100,000			
 
-Two comments:
-- recursive function was likely slower in the once instance run because of the onerous requirements of printing; without that it would be comparable or quicker
-- Python sets the limit to stack depth at a default of 1000 (sys.getrecursionlimit); I could change this using sys.setrecursion limit, but I'd rather not mess with my computer too much this evening
+Two comments
+- Python sets the limit to stack depth at a default of 1000 (sys.getrecursionlimit); I could change this using sys.setrecursion limit, but I'd rather not mess with my computer too much this evening.
+- recursion can be intense on memory, so it would make more sense to use a specific approach (e.g. LRU algorithms) and the speed of the recusrive method would be much better
