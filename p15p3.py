@@ -27,7 +27,7 @@ def fncSeq(p):
 
 while True:
 	try:
-		num = int(input("Please enter an integer greater than 1 (or a negative integer to exit): "))
+		num = int(input("Please enter an integer greater than -1 (or a negative integer to exit): "))
 		if -1 < num:
 			print(fncSeq(num))
 		else:
