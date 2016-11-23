@@ -1,0 +1,18 @@
+in file p18p6read.txt
+at 2016-11-23 12:11:04.589673
+< occurs 2 times.
+> occurs 5 times.
+e occurs 1 times.
+<!-- occurs 1 times.
+--> occurs 4 times.
+new lines occurs 10 times.
+
+in file p18p6read.txt
+at 2016-11-23 12:11:45.986009
+< occurs 2 times.
+> occurs 2 times.
+e occurs 1 times.
+<!-- occurs 1 times.
+--> occurs 1 times.
+new lines occurs 5 times.
+
