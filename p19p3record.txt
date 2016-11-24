@@ -1,0 +1,77 @@
+in file p19p3read.txt
+at 2016-11-24 15:01:20.068095
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 1 times.
+> occurs 1 times.
+
+in file p19p3read.txt
+at 2016-11-24 15:01:31.359269
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 1 times.
+> occurs 2 times.
+
+in file p19p3read.txt
+at 2016-11-24 15:01:51.432755
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 1 times.
+> occurs 2 times.
+
+in file p19p3read.txt
+at 2016-11-24 15:02:05.932589
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 1 times.
+> occurs 2 times.
+
+in file p19p3read.txt
+at 2016-11-24 15:02:21.798419
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 1 times.
+> occurs 3 times.
+
+in file p19p3read.txt
+at 2016-11-24 15:02:29.352734
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 2 times.
+> occurs 3 times.
+
+in file p19p3read.txt
+at 2016-11-24 15:08:17.290743
+( occurs 1 times.
+) occurs 1 times.
+[ occurs 1 times.
+] occurs 1 times.
+{ occurs 1 times.
+} occurs 1 times.
+< occurs 2 times.
+> occurs 3 times.
+
